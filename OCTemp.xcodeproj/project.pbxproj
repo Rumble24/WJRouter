@@ -23,10 +23,6 @@
 		C07D4B742DE71E28000A51B8 /* View2.m in Sources */ = {isa = PBXBuildFile; fileRef = C07D4B732DE71E28000A51B8 /* View2.m */; };
 		C07D4BA82DEEEAB9000A51B8 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C07D4BA72DEEEAB9000A51B8 /* NSObject+Swizzling.m */; };
 		C07D4BD32DF2CA17000A51B8 /* HashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C07D4BD22DF2CA17000A51B8 /* HashTable.m */; };
-		C07DCAED2E2791CB009045B0 /* QCloudCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07DCAE92E2791CB009045B0 /* QCloudCore.framework */; };
-		C07DCAEE2E2791CB009045B0 /* COSBeaconAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07DCAE82E2791CB009045B0 /* COSBeaconAPI_Base.framework */; };
-		C07DCAEF2E2791CB009045B0 /* QimeiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07DCAEB2E2791CB009045B0 /* QimeiSDK.framework */; };
-		C07DCAF02E2791CB009045B0 /* QCloudCOSXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07DCAEA2E2791CB009045B0 /* QCloudCOSXML.framework */; };
 		C0FE19CF2DFACE0E00D945C5 /* WJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FE19CE2DFACE0E00D945C5 /* WJRouter.m */; };
 		C0FE19DE2DFAE57000D945C5 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE19DD2DFAE57000D945C5 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
@@ -81,10 +77,6 @@
 		C07D4BA72DEEEAB9000A51B8 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 		C07D4BD12DF2CA17000A51B8 /* HashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashTable.h; sourceTree = "<group>"; };
 		C07D4BD22DF2CA17000A51B8 /* HashTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashTable.m; sourceTree = "<group>"; };
-		C07DCAE82E2791CB009045B0 /* COSBeaconAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = COSBeaconAPI_Base.framework; sourceTree = "<group>"; };
-		C07DCAE92E2791CB009045B0 /* QCloudCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QCloudCore.framework; sourceTree = "<group>"; };
-		C07DCAEA2E2791CB009045B0 /* QCloudCOSXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QCloudCOSXML.framework; sourceTree = "<group>"; };
-		C07DCAEB2E2791CB009045B0 /* QimeiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QimeiSDK.framework; sourceTree = "<group>"; };
 		C0FE19C92DFACCA800D945C5 /* WJRouterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJRouterProtocol.h; sourceTree = "<group>"; };
 		C0FE19CD2DFACE0E00D945C5 /* WJRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJRouter.h; sourceTree = "<group>"; };
 		C0FE19CE2DFACE0E00D945C5 /* WJRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJRouter.m; sourceTree = "<group>"; };
@@ -111,10 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C07DCAED2E2791CB009045B0 /* QCloudCore.framework in Frameworks */,
-				C07DCAEE2E2791CB009045B0 /* COSBeaconAPI_Base.framework in Frameworks */,
-				C07DCAEF2E2791CB009045B0 /* QimeiSDK.framework in Frameworks */,
-				C07DCAF02E2791CB009045B0 /* QCloudCOSXML.framework in Frameworks */,
 				2D28C238A1E96A299F249CAD /* Pods_OCTemp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,7 +166,6 @@
 		C07D4B592DE6F2CB000A51B8 /* OCTemp */ = {
 			isa = PBXGroup;
 			children = (
-				C07DCAEC2E2791CB009045B0 /* QCloudCOSXML */,
 				C07D4B442DE6F2CB000A51B8 /* AppDelegate.h */,
 				C07D4B452DE6F2CB000A51B8 /* AppDelegate.m */,
 				C07D4B4F2DE6F2CB000A51B8 /* Manager.h */,
@@ -213,17 +200,6 @@
 				C0FE19DC2DFAE57000D945C5 /* OCTemp-Bridging-Header.h */,
 			);
 			path = OCTemp;
-			sourceTree = "<group>";
-		};
-		C07DCAEC2E2791CB009045B0 /* QCloudCOSXML */ = {
-			isa = PBXGroup;
-			children = (
-				C07DCAE82E2791CB009045B0 /* COSBeaconAPI_Base.framework */,
-				C07DCAE92E2791CB009045B0 /* QCloudCore.framework */,
-				C07DCAEA2E2791CB009045B0 /* QCloudCOSXML.framework */,
-				C07DCAEB2E2791CB009045B0 /* QimeiSDK.framework */,
-			);
-			path = QCloudCOSXML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
